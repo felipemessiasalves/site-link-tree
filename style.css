@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
-  background: #000;
+  background: black;
   margin: 0;
   padding: 0;
   /* overflow: hidden; */
@@ -18,7 +18,7 @@ body {
 }
 
 .rei-image {
-  color: #fff;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +37,7 @@ body {
 .buttons-container {
   margin-bottom: 30px;
   margin-top: 10px;
-  color: #fff;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,7 +111,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: white;
 }
 
 @keyframes wobble-skew {
