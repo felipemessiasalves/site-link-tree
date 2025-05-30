@@ -46,11 +46,9 @@ body {
   gap: 18px;
 }
 
-.youtube-btn,
+.linkedin-btn,
 .tiktok-btn,
-.cloud-btn,
-.whatsapp-btn,
-.wordpress-btn {
+.github-btn {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -63,11 +61,9 @@ body {
   box-shadow: 0px 0px 18px 1px rgb(34 228 143 / 65%);
 }
 
-.youtube-btn:hover,
-.cloud-btn:hover,
+.linkedin-btn:hover,
 .tiktok-btn:hover,
-.whatsapp-btn:hover,
-.wordpress-btn:hover {
+.github-btn:hover {
   animation-name: wobble-skew;
   animation-duration: 0.6s;
   animation-timing-function: ease-in-out;
@@ -97,15 +93,15 @@ body {
   cursor: pointer;
 }
 
+.linkedin-btn img {
+  margin-left: -10px;
+}
+
 .tiktok-btn img {
-  margin-left: -20px;
+  margin-left: -10px;
 }
 
-.whatsapp-btn img {
-  margin-left: -5px;
-}
-
-.youtube-btn img {
+.github-btn img {
   margin-left: -10px;
 }
 
@@ -133,16 +129,10 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
-  .youtube-btn,
+  .linkedin-btn,
   .tiktok-btn,
-  .whatsapp-btn,
-  .wordpress-btn,
-  .cloud-btn {
+  .github-btn {
     width: 334px;
     padding-block: 5px;
-  }
-
-  .wordpress-btn {
-    text-align: center;
   }
 }
