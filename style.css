@@ -4,7 +4,6 @@ body {
   background: black;
   margin: 0;
   padding: 0;
-  /* overflow: hidden; */
   font-family: "Poppins", sans-serif;
 }
 
@@ -17,7 +16,7 @@ body {
   flex-direction: column;
 }
 
-.rei-image {
+.mes-image {
   color: white;
   display: flex;
   justify-content: center;
@@ -26,7 +25,7 @@ body {
   gap: 10px;
 }
 
-.rei-image img {
+.mes-image img {
   width: 200px;
   height: 200px;
   object-fit: cover;
